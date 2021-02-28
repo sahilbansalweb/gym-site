@@ -1,0 +1,129 @@
+/* @@ -1,104 +0,0 @@ */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.policy{
+    /* border: 3px solid red; */
+    background-color: black;
+    position:relative;
+    font-size: 18px;
+    color: white;
+    /* margin: 10px 10px; */
+    padding: 1px 16px;
+    word-spacing: 1px;
+}
+.policy img{
+    /* filter: invert(100%); */
+    /* position: absolute; */
+    padding: 1px 1px;
+    width: 20px;
+    height: 20px;
+}
+.policy a{
+    /* position:absolute; */
+    /* margin: 9px 12px; */
+    color: white;
+}
+
+
+
+.navbar{
+    font-family: 'Josefin Sans', sans-serif;
+    background: white;
+    border-bottom: 1px solid black;
+    display: flex;
+    font-size: 24px;
+    /* margin: 7px 0; */
+    position: sticky;
+    
+}
+.navbar .icon{
+    /* border: 2px solid blue; */
+    display: flex;
+}
+
+.navbar .icon img{
+    padding: 5px 17px;
+    height: 60px;
+    width: 60px;
+}
+.navbar .icon img:hover{
+    cursor: pointer;
+}
+.navbar .icon .name{
+    /* text-align: center; */
+    font-size: 37px;
+    padding: 3px 0px;
+    font-weight: 900;
+}
+.navbar .icon .name:hover{
+    cursor: pointer;
+}
+.navbar a{
+    text-decoration: none;
+    color: black;
+}
+.navbar a:hover{
+    color: rgb(255, 145, 0);
+}
+.menu-toggler{
+    text-decoration: none;
+
+    padding-left: 141px;
+    /* border: 2px solid green; */
+    display: flex; 
+}
+.menu-toggler .menu{
+    padding: 20px 19px;
+}
+.login{
+    padding: 17px 58px;
+    display: flex;
+    padding-left: 25px;
+    /* border: 2px solid yellow; */
+    text-align: center;
+}
+.login img{
+    height: 30px;
+    width: 30px;
+}
+.login img:hover{
+    cursor: pointer;
+}
+.login div{
+    margin-top: 1px;
+}
+.join{
+    padding: 18px 22px;
+    /* padding-left:87px; */
+    margin: 0px 0px;
+    background-color: rgb(255, 145, 0);
+    /* flex-direction: row-reverse; */
+    /* border: 1px solid rgb(250, 83, 23); */
+}
+.join:hover{
+    cursor: pointer;
+    color: white;
+    background-color: black;
+}
+
+.home:active{
+    color: rgb(255, 145, 0);
+
+}
+
+.middle{
+    /* position:static; */
+    /* height: 400px; */
+    position: relative;
+    margin: 70px 0px;
+    padding-top: 100px;
+    text-align: center;
+    color: white;
+    background: url("/img/girl.jpg");
+    background-size: cover;
+    height: 800px;
+    width: 100%;
+}
